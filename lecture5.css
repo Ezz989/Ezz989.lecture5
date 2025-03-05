@@ -1,0 +1,62 @@
+/* Apply background image to the body */
+body {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F005%2F861%2F610%2Foriginal%2Fsimple-black-abstract-background-dark-geometric-illustration-free-vector.jpg&f=1&nofb=1&ipt=a6ed31a16f921623bc43dbbb7a807fd017857ae9efba2167e50a3e9faef69aca&ipo=images');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Viewport height */
+    margin: 0; /* Removes default margin */
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    font-family: Arial;
+}
+
+
+h1 {
+    color: lightblue;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    width: 60%; /* Adjust the percentage for your preference */
+    margin: 0 auto; /* Center the p tag */
+    text-align: left; 
+    color: white;
+}
+
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial;
+    border-radius: 25px; /* Rounded edges */
+    background-color: lightblue; 
+    color: darkcyan;
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to a pointer when hovering */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transition */
+}
+
+button:hover {
+    background-color: darkcyan; 
+    color: white; 
+    transform: scale(1.1); /* Button grows */
+}
+
+img {
+    display: block; /* Makes block-level element */
+    margin: 20px auto; /* Centers the image */
+    max-width: 30%; 
+    height: auto; 
+}
