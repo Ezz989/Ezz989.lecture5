@@ -13,7 +13,6 @@ h1, h2, h3, p {
     font-family: Arial;
 }
 
-
 h1 {
     color: lightblue;
 }
@@ -32,7 +31,6 @@ p {
     text-align: left; 
     color: white;
 }
-
 
 button {
     display: block;
@@ -59,4 +57,48 @@ img {
     margin: 20px auto; /* Centers the image */
     max-width: 30%; 
     height: auto; 
+}
+
+
+.course-list {
+    list-style: none;
+    max-width: 500px; 
+    margin: 0 auto; /* Centers the list inside the container */
+    text-align: left; 
+}
+.course-list li {
+    background-color: white;
+    color: darkcyan;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px; /* Border radius */
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.course-list li:hover {
+    background-color: darkcyan;
+    color: white;
+    transform: scale(1.05);
+}
+
+.info-box {
+    max-width: 770px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto;  /* Centers the box */
+    border-left: 6px solid darkcyan; /* Stylish left border */
+    border-radius: 10px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.info-box p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.info-box strong {
+    color: darkcyan;
 }
